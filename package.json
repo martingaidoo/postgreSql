@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node": "^18.20.1",
+    "pg": "^8.11.5"
+  },
+  "name": "postgresql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/pg": "^8.11.4",
+    "typescript": "^5.4.4"
+  },
+  "scripts": {
+    "dev": "src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
