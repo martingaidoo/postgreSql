@@ -16,12 +16,6 @@ const client = new Client({
 });
 
 // Conecta a la base de datos
-client.connect()
-    .then(() => console.log('Conexión exitosa a la base de datos'))
-    .catch(err => console.error('Error al conectar a la base de datos', err));
 
+export default client;
 
-client.query("SELECT * FROM usuarios")
-    .then(result => console.table(result.rows))
-    .catch(err => console.error('Error al ejecutar la consulta', err))
-    .finally(() => client.end()); // Cierra la conexión a la base de datos
